@@ -1,0 +1,420 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+/* =========Common CSS======== */
+.container{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    width: 840px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section {
+    margin-top: 100px;
+}
+a{
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+    line-height: 1.5;
+}
+
+/* Header area Styles */
+
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+nav .header-content{
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.menu ul li{
+    list-style: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #A19DAF;
+    font-size: 14px;
+    font-weight: 500;
+    transition: .3s;
+}
+.menu ul li a:hover{
+    color: #48484b;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+}
+.banner .text{
+    width: 300px;
+}
+.banner .text h1{
+    font-size: 60px;
+}
+.button a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 35px;
+    background: linear-gradient(45deg, #926bfd, #d25afd);
+    border-radius: 50px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.banner .image{
+    width: 600px;
+}
+.banner .image img{
+    width: 100%;
+}
+
+.abt{
+    position: relative;
+}
+.abt::before {
+    content: "";
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(transparent, #fff);
+    z-index: 111;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.abt .text{
+    width: 100%;
+    text-align: center;
+    line-height: 1.4;
+}
+.abt .text h1{
+    margin-bottom: 20px;
+}
+.img img{
+    width: 100%;
+}
+
+.photos-patterns .text h1,
+.superhero-sec .text h1{
+    font-size: 60px;
+    color: #926bfd;
+}
+.photos-patterns .text .bold,
+.superhero-sec .text .bold{
+    font-weight: 600;
+    color: rgb(66, 66, 66);
+}
+
+.img-super{
+    background-image: url(images/App-Screens-2.png);
+    background-size: contain;
+    background-position: 100px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+}
+.img-patterns{
+    background-image: url(images/App-Screenas-3.png);
+    background-size: contain;
+    background-position: 100px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+}
+.casecraft .text{
+    line-height: 1.4;
+    width: 420px;
+}
+.casecraft .text h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #2F2651;
+}
+.casecraft .text p{
+    font-size: 20px;
+    color: #7A7490;
+}
+
+.casecraft .image{
+    width: 490px;
+}
+.casecraft .image img{
+    width: 100%;
+}
+.video-sec{
+    width: 100%;
+    height: 100vh;
+    background: url(images/BG-Assets.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #9672FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video-sec .content{
+    justify-content: center;
+}
+.video-sec .content a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+.video-sec .content .play ion-icon{
+    font-size: 50px;
+    color: #fff;
+}
+.video-sec .content .play h4{
+    font-size: 20px;
+    color: #fff;
+}
+
+.get-started-now .content{
+    justify-content: center;
+    text-align: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+.btn .button a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.btn .button a .icon ion-icon{
+    font-size: 35px;
+}
+footer{
+    width: 100%;
+    height: 345px;
+    padding: 30px 0;
+}
+.logo-sci{
+    width: 180px;
+}
+.f-menu{
+    width: 90px;
+}
+.sci {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    margin-top: 16px;
+    color: #171744;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:500px) {
+    section {
+        margin-top: 50px;
+    }
+    .container{
+        height: auto;
+    }
+    .content{
+        width: 100%;
+        padding: 10px 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+    nav .header-content{
+        width: 100%;
+        padding: 10px 20px;
+    }
+    .menu ul{
+        display: none;
+    }
+    .banner {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner .text{
+        width: 100%;
+        text-align: center;
+
+    }
+    .banner .image{
+        width: 100%;
+    }
+    .banner .image img {
+        margin-left: 0;
+    }
+    .banner .text h1 {
+        font-size: 35px;
+    }
+    .banner .text .button {
+        font-size: 15pxpx;
+    }
+    .photos-patterns .text h1,
+    .superhero-sec .text h1{
+    font-size: 20px;
+    color: #926bfd;
+    }
+    .photos-patterns .text p,
+    .superhero-sec .text p{
+    font-size: 13px;
+    color: #7A7490;
+    }
+    .casecraft .text{
+        line-height: 1.4;
+        width: 100%;
+    }
+
+    .casecraft .text h1{
+        font-size: 20px;
+    }
+    .casecraft .text p{
+        font-size: 13px;
+    }
+    .casecraft .image{
+        width: 100%;
+    }
+    .btn{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .button a{
+        font-size: 12px;
+        padding: 10px 25px;
+    }
+    .img-super{
+        background-position: center;
+        height: 160px;
+    }
+    .img-patterns{
+        background-position: center;
+        height: 200px;
+    }
+    
+}
+
+@media (min-width:501px) and (max-width:1000px) {
+    .content{
+        width: 100%;
+        padding: 10px 20px;
+    }
+    nav .header-content{
+        width: 100%;
+        padding: 10px 20px;
+    }
+    .menu ul{
+        display: none;
+    }
+    .banner {
+        width: 100%;
+        height: 100vh;
+    }
+    .banner .text{
+        width: 100%;
+
+    }
+    .banner .image{
+        width: 100%;
+    }
+    .banner .text h1 {
+        font-size: 35px;
+    }
+    .banner .text .button {
+        font-size: 15pxpx;
+    }
+
+    .photos-patterns .text h1,
+    .superhero-sec .text h1{
+    font-size: 30px;
+    color: #926bfd;
+}
+
+
+    .img-patterns,
+    .img-super{
+        padding: 0 20px;
+    }
+    .img-patterns img,
+    .img-super img {
+        width: 100%;
+    }
+
+    .casecraft .text h1{
+        font-size: 20px;
+    }
+    .casecraft .text p{
+        font-size: 12px;
+    }
+    .casecraft .image {
+        width: 410px;
+    }
+    .img-super,
+    .img-patterns {
+        background-position: left;
+        height: 500px;
+    }
+    .photos-patterns,
+    .superhero-sec{
+        margin-top: 0;
+    }
+    .button a{
+        font-size: 15px;
+        padding: 10px 25px;
+    }
+}

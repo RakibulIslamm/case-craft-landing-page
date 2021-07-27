@@ -143,7 +143,7 @@ nav .header-content{
 }
 
 .img-super{
-    background-image: url(images/App-Screens-2.png);
+    background-image: url(Images/App-Screens-2.png);
     background-size: contain;
     background-position: 100px;
     background-repeat: no-repeat;
@@ -151,7 +151,7 @@ nav .header-content{
     height: 800px;
 }
 .img-patterns{
-    background-image: url(images/App-Screenas-3.png);
+    background-image: url(Images/App-Screenas-3.png);
     background-size: contain;
     background-position: 100px;
     background-repeat: no-repeat;
@@ -182,7 +182,7 @@ nav .header-content{
 .video-sec{
     width: 100%;
     height: 100vh;
-    background: url(images/BG-Assets.png);
+    background: url(Images/BG-Assets.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
